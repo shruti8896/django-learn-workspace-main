@@ -1,0 +1,35 @@
+h1,h2 {
+    
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+h1 {
+    font-size: 2rem;
+    background-color: #353535;
+    border: 1px solid white;
+    width: 70%;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+h2{
+    font-size: 3rem;
+    background-color: #353535;
+    border: 1px solid white;
+    width: 70%;
+    height: 12rem;
+    margin-left: 200px;
+    padding-top: 120px;
+    
+    
+    
+    
+}
+
+.month_challenge {
+    height: 10px;
+    width: 100%;
+    border: 2px solid red;
+    color: aquamarine;
+}

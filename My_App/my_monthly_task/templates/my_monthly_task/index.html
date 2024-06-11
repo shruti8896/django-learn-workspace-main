@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{%block page_title%}
+ Month List
+
+{%endblock%}
+{%block content%}
+    <h1>
+        List of the months : </h1>
+        {%for month in month_list %}
+
+        <h3>{{month.upper}}</h3>
+
+        {% endfor %}
+
+{%endblock%}
+
